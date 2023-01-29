@@ -95,3 +95,6 @@ https://drive.google.com/drive/folders/1f8jU918MSlQmnfp7ccl_qzMmVQ89XVUw?usp=sha
 			<groupId>javax.servlet</groupId>
 			<artifactId>jstl</artifactId>
 		</dependency> 
+
+
+https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.query-methods.query-creation
