@@ -1,6 +1,6 @@
 https://drive.google.com/drive/folders/1f8jU918MSlQmnfp7ccl_qzMmVQ89XVUw?usp=sharing
 
-
+xception in thread "main" java.lang.NoSuchMethodError: org.springframework.core.type.AnnotationMetadata.introspect(Ljava/lang/Class;)Lorg/springframework/core/type/AnnotationMetadata;
 
 1. 환경설정
   
