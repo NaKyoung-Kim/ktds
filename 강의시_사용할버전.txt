@@ -138,3 +138,10 @@ https://drive.google.com/drive/folders/1f8jU918MSlQmnfp7ccl_qzMmVQ89XVUw?usp=sha
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
 		</dependency>
 
+5. AOP 의존성
+ <!-- https://mvnrepository.com/artifact/org.aspectj/aspectjweaver -->
+<dependency>
+    <groupId>org.aspectj</groupId>
+    <artifactId>aspectjweaver</artifactId>
+    <version>1.9.4</version>
+</dependency>
