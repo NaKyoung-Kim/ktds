@@ -112,5 +112,17 @@ https://drive.google.com/drive/folders/1f8jU918MSlQmnfp7ccl_qzMmVQ89XVUw?usp=sha
 			<artifactId>jstl</artifactId>
 		</dependency> 
 
-
-https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.query-methods.query-creation
+  https://docs.spring.io/spring-data/jpa/docs/current/reference/html/#jpa.query-methods.query-creation
+  
+ 4. Spring MVC 파일업로드 의존성
+  <dependency>
+    <groupId>commons-fileupload</groupId>
+    <artifactId>commons-fileupload</artifactId>
+    <version>1.4</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+<dependency>
+    <groupId>commons-io</groupId>
+    <artifactId>commons-io</artifactId>
+    <version>2.6</version>
+</dependency>
