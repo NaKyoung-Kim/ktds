@@ -145,3 +145,16 @@ https://drive.google.com/drive/folders/1f8jU918MSlQmnfp7ccl_qzMmVQ89XVUw?usp=sha
     <artifactId>aspectjweaver</artifactId>
     <version>1.9.4</version>
 </dependency>
+
+
+6. Spring Boot JSP 의존성
+ <!-- JSP 사용 -->
+	<dependency>
+		<groupId>org.apache.tomcat.embed</groupId>
+		<artifactId>tomcat-embed-jasper</artifactId>
+		<scope>provided</scope>
+	</dependency> 
+	<dependency>
+		<groupId>javax.servlet</groupId>
+		<artifactId>jstl</artifactId>
+	</dependency>
