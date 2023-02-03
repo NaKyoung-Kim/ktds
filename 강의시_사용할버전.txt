@@ -77,6 +77,31 @@ https://drive.google.com/drive/folders/1f8jU918MSlQmnfp7ccl_qzMmVQ89XVUw?usp=sha
     <version>3.1.0</version>
 </dependency>	
 
+3. Spring Boot + mybatis
+  # application.properties
+    spring.datasource.driver-class-name=org.mariadb.jdbc.Driver
+spring.datasource.url=jdbc:mariadb://localhost:3306/ktds
+spring.datasource.username=root
+spring.datasource.password=1234
+
+
+#mybatis
+mybatis.mapper-locations=com/config/sqlMapper.xml
+mybatis.type-aliases-package=com.example.dto
+
+ # 의존성
+ <dependency>
+	<groupId>org.mybatis.spring.boot</groupId>
+	<artifactId>mybatis-spring-boot-starter</artifactId>
+	<version>2.1.4</version>
+</dependency>
+
+<dependency>
+    <groupId>org.mariadb.jdbc</groupId>
+    <artifactId>mariadb-java-client</artifactId>
+</dependency>
+
+
 3.  Spring Boot + JPA 의존성
 
         <dependency>
