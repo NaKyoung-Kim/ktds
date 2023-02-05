@@ -204,3 +204,8 @@ mybatis.type-aliases-package=com.example.dto
  #spring boot 2.6이상시 다음과 같이 설정
 # http://localhost:8090/app/swagger-ui.html
 spring.mvc.pathmatch.matching-strategy=ant-path-matcher
+
+
+9. Spring Data JPA ( query methods )
+https://docs.spring.io/spring-data/jpa/docs/2.7.7/reference/html/#repositories.query-methods.details
+ 
